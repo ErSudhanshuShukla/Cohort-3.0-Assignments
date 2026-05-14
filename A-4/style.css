@@ -144,7 +144,7 @@ main {
 }
 
 .top-left img {
-    width: 160px;
+    width: 145px;
 }
 
 /********** section3 **********/
@@ -371,7 +371,7 @@ main {
     left: 50%;
     bottom: 0;
     transform: translate(-50%);
-    height: 380px;
+    height: 118%;
 }
 
 /* img-Bg */
@@ -413,17 +413,17 @@ main {
 .mid-center .popup-two {
     background-color: #FEFEFE;
     position: absolute;
-    left: 76%;
+    left: 73%;
     top: 25%;
     transform: translate(-50%, -50%);
-    height: 140px;
-    width: 200px;
+    height: 120px;
+    width: 160px;
     padding: 10px;
     border-radius: 20px;
 }
 
 .popup-two img {
-    height: 100px;
+    height: 80px;
     padding-bottom: 10px;
 }
 
@@ -469,7 +469,7 @@ main {
     border-radius: 25px;
     position: absolute;
     left: 74%;
-    top: 75%;
+    top: 73%;
     transform: translate(-50%, -50%);
 }
 
