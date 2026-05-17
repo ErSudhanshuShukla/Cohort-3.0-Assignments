@@ -95,12 +95,12 @@ nav .right .login:hover {
 
 nav .ri-menu-line {
   display: none;
+  font-size: xx-large;
 }
 
 @media (max-width: 768px) {
-  nav .left,
   nav .right {
-    width: 50%;
+    width: fit-content;
   }
 
   nav a {
@@ -109,6 +109,10 @@ nav .ri-menu-line {
 
   nav .ri-menu-line {
     display: block;
+  }
+
+  main {
+    padding: 0.7rem;
   }
 }
 
@@ -250,6 +254,7 @@ nav .ri-menu-line {
 
 .section2 .content:first-child {
   padding: 0.4rem 0.7rem;
+  border-radius: 1rem;
 }
 
 .section2 .content:hover {
