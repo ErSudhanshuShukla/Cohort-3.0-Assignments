@@ -244,8 +244,12 @@ nav .ri-menu-line {
 }
 
 .section2 .content {
-  padding: 0.4rem 0.7rem;
+  padding: 0.3rem 0.5rem;
   border-radius: 1rem;
+}
+
+.section2 .content:first-child {
+  padding: 0.4rem 0.7rem;
 }
 
 .section2 .content:hover {
