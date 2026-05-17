@@ -20,7 +20,12 @@ html,
 body {
   height: 100%;
   width: 100%;
-  /* background-color: #fef6f8; */
+  a:hover,
+  button:hover,
+  select:hover,
+  .ri-search-line:hover {
+    cursor: pointer;
+  }
 }
 
 main {
@@ -34,39 +39,43 @@ main {
 
 /****** Nav ******/
 
-nav,
-nav .left,
-nav .right {
+nav {
   display: flex;
   align-items: center;
 }
 
-nav {
-  justify-content: space-between;
+nav .left,
+nav .right {
+  width: 20%;
+}
+
+nav .center {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  gap: clamp(0.8rem, 2vw, 2rem);
+}
+
+nav .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 nav img {
   width: clamp(5rem, 8vw, 7rem);
 }
 
-nav .left {
-  gap: 2vw;
-}
-
 nav a {
   text-decoration: none;
+  font-weight: 500;
   color: black;
-}
-
-nav a:hover {
-  cursor: text;
-}
-
-nav .right {
-  gap: 0.5rem;
+  font-size: clamp(0.9rem, 1.2vw, 2rem);
 }
 
 nav button {
+  font-weight: 500;
   width: 5rem;
   height: 2.5rem;
   border: none;
@@ -80,9 +89,8 @@ nav .right .login {
 
 nav button:hover,
 nav .right .login:hover {
-  cursor: pointer;
   color: black;
-  background-color: rgb(250, 221, 221);
+  background-color: #f0ffff;
 }
 
 nav .ri-menu-line {
@@ -90,6 +98,11 @@ nav .ri-menu-line {
 }
 
 @media (max-width: 768px) {
+  nav .left,
+  nav .right {
+    width: 50%;
+  }
+
   nav a {
     display: none;
   }
@@ -112,6 +125,7 @@ nav .ri-menu-line {
 .section1 p:first-child,
 .section1 p:nth-child(2) {
   font-size: clamp(2rem, 5vw, 4rem);
+  font-family: "Source Serif 4", serif;
 }
 
 .section1 p:last-child,
@@ -171,6 +185,7 @@ nav .ri-menu-line {
 
 .search-box .right {
   gap: 0.5rem;
+  cursor: pointer;
 }
 
 .ri-search-line {
@@ -208,6 +223,7 @@ nav .ri-menu-line {
 
 .searches:hover {
   background-color: white;
+  cursor: pointer;
 }
 
 /****** Section2 ******/
@@ -234,24 +250,31 @@ nav .ri-menu-line {
 
 .section2 .content:hover {
   background-color: rgb(237, 236, 236);
+  cursor: pointer;
+}
+
+.section2 .popular:hover,
+.section2 .filters:hover {
+  background-color: rgb(250, 221, 221);
 }
 
 .section2 .popular,
 .section2 .filters {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: first baseline;
   gap: 0.5rem;
-  padding: 0.2rem 0.4rem;
+  padding: 0.5rem 0.8rem;
   border: 1px solid rgb(195, 194, 194);
 }
 
 .section2 .popular {
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
 }
 
 .section2 .filters {
-  border-radius: 1rem;
+  border-radius: 1.5rem;
 }
 
 @media (max-width: 768px) {
@@ -274,6 +297,10 @@ nav .ri-menu-line {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.2rem;
   padding: 1rem;
+}
+
+#cards .cards {
+  cursor: pointer;
 }
 
 .cards img,
@@ -360,13 +387,20 @@ video {
 }
 
 .section3 .center {
+  cursor: pointer;
   background-color: black;
   color: white;
   padding: 0.3rem 0.5rem;
   border-radius: 1.5rem;
 }
 
+.section3 .center:hover {
+  color: black;
+  background-color: #f0ffff;
+}
+
 .section3 .ri-arrow-up-line {
+  cursor: pointer;
   background-color: #a1a1aa;
   color: white;
   padding: 0.5rem;
@@ -376,6 +410,12 @@ video {
 
 .section3 .left {
   opacity: 0;
+}
+
+@media (max-width: 768px), (max-width: 992px) {
+  .section3 .right {
+    opacity: 0;
+  }
 }
 
 /****** Section4 ******/
@@ -428,6 +468,10 @@ footer .right {
   font-size: 1.5rem;
 }
 
+footer .right i {
+  cursor: pointer;
+}
+
 footer img {
   width: clamp(5rem, 8vw, 7rem);
 }
@@ -443,7 +487,6 @@ footer .center {
 footer .center a {
   text-decoration: none;
   color: black;
-  cursor: text;
   font-weight: 500;
   padding: 0.4rem 0.7rem;
   border-radius: 1rem;
@@ -470,13 +513,16 @@ footer .r {
   gap: 1rem;
 }
 
+footer .ri-copyright-line {
+  color: #939393;
+}
+
 footer .bottom a {
   font-size: 1rem;
   padding: 0.2rem 0.3rem;
   border-radius: 1rem;
   text-decoration: none;
-  color: black;
-  cursor: text;
+  color: #939393;
 }
 
 @media (max-width: 768px), (max-width: 992px) {
