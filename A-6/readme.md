@@ -3,9 +3,9 @@
 A fully responsive tea brand landing page inspired by the official Two Leaves website, built using HTML5 and Tailwind CSS.  
 The project focuses on modern UI design, responsive layouts, smooth hover interactions, and clean frontend structure.
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-https://ersudhanshushukla.github.io/Cohort-3.0-Assignments/A-6/
+https://two-leaves-clone-sudhanshu.vercel.app/
 
 ## 🚀 Features
 
