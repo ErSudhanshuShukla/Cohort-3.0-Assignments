@@ -3,9 +3,8 @@
 A modern SaaS blog landing page built using HTML5 and CSS3.  
 This project focuses on clean layouts, card-based UI design, typography, and modern dark-themed interfaces.
 
-## 🚀 Live Demo
-
-https://ersudhanshushukla.github.io/Cohort-3.0-Assignments/A-2.1/
+## 💻 Preview
+<p align="center"> <img src="./preview.jpg" width="100%"> </p>
 
 ## ✨ Features
 
