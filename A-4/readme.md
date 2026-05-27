@@ -3,9 +3,8 @@
 A modern dashboard UI built using HTML5 and CSS3.  
 This project focuses on advanced CSS Grid layouts, positioning, modern card components, and clean visual design.
 
-## 🚀 Live Demo
-
-https://ersudhanshushukla.github.io/Cohort-3.0-Assignments/A-4/
+## 💻 Preview
+<p align="center"> <img src="./preview.jpg" width="100%"> </p>
 
 ## ✨ Features
 
