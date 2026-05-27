@@ -3,9 +3,8 @@
 A cinematic Squid Game-inspired landing page built using HTML5 and CSS3.  
 This project focuses on modern landing page design, visual composition, positioning, and immersive UI styling.
 
-## 🚀 Live Demo
-
-https://ersudhanshushukla.github.io/Cohort-3.0-Assignments/A-3/
+## 💻 Preview
+<p align="center"> <img src="./preview.jpg" width="100%"> </p>
 
 ## ✨ Features
 
