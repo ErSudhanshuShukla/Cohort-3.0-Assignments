@@ -3,9 +3,8 @@
 A modern Pokemon-inspired web interface built using HTML5 and CSS3.  
 This project focuses on card-based layouts, UI composition, themed styling, and interactive dashboard design.
 
-## 🚀 Live Demo
-
-https://ersudhanshushukla.github.io/Cohort-3.0-Assignments/A-1/
+## 💻 Preview
+<p align="center"> <img src="./preview.jpg" width="100%"> </p>
 
 ## ✨ Features
 
