@@ -3,9 +3,8 @@
 A modern insect showcase landing page built using HTML5 and CSS3.  
 This project focuses on creative layouts, visual storytelling, typography, and modern UI composition.
 
-## 🚀 Live Demo
-
-https://ersudhanshushukla.github.io/Cohort-3.0-Assignments/A-2.2/
+## 💻 Preview
+<p align="center"> <img src="./preview.jpg" width="100%"> </p>
 
 ## ✨ Features
 
