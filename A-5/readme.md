@@ -32,6 +32,6 @@ https://dribbble-clone-sudhanshu.vercel.app/
 
 ## 👨‍💻 Author
 
-Sudhanshu Shukla
+**Sudhanshu Shukla**
 
-GitHub: https://github.com/ersudhanshushukla
+[GitHub](https://github.com/ErSudhanshuShukla) | [LinkedIn](https://www.linkedin.com/in/ErSudhanshuShukla)
