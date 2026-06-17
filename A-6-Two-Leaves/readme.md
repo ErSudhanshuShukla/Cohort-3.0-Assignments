@@ -5,7 +5,7 @@ The project focuses on modern UI design, responsive layouts, smooth hover intera
 
 ## 🌐 Live Demo
 
-https://two-leaves-sudhanshu.netlify.app/
+https://two-leaves-clone-sudhanshu.pages.dev/
 
 ## 🚀 Features
 
