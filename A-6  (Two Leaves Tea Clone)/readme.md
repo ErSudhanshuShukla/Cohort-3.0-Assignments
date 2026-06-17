@@ -5,7 +5,7 @@ The project focuses on modern UI design, responsive layouts, smooth hover intera
 
 ## 🌐 Live Demo
 
-https://two-leaves-clone-sudhanshu.vercel.app/
+https://two-leaves-sudhanshu.netlify.app/
 
 ## 🚀 Features
 
