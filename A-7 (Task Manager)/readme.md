@@ -287,9 +287,8 @@ Theme preference is also stored in Local Storage.
 * Drag & Drop Support
 * Task Priorities
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-### Sudhanshu Shukla
+**Sudhanshu Shukla**
 
-* GitHub: https://github.com/ersudhanshushukla
-* LinkedIn: https://linkedin.com/in/ersudhanshushukla
+[GitHub](https://github.com/ErSudhanshuShukla) | [LinkedIn](https://www.linkedin.com/in/ErSudhanshuShukla)
