@@ -5,7 +5,7 @@ The project focuses on modern UI development, responsive layouts, hover interact
 
 ## 🌐 Live Demo
 
-https://dribbble-clone-sudhanshu.vercel.app/
+https://dribbble-clone-sudhanshu.pages.dev/
 
 ## 🚀 Features
 
