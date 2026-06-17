@@ -3,7 +3,7 @@
 A fully interactive Task Manager Application built using **HTML, CSS, and Vanilla JavaScript**. This project demonstrates core browser and DOM concepts including DOM Manipulation, Event Handling, Event Delegation, Event Bubbling, Event Capturing, Attributes vs Properties, Browser Rendering Pipeline, and Local Storage.
 
 ## 🌐 Live Demo
-https://taskmanager-sudhanshu.netlify.app/
+https://task-manager-sudhanshu.pages.dev/
 
 ## 📸 Preview
 
