@@ -6,7 +6,11 @@ A fully interactive Task Manager Application built using **HTML, CSS, and Vanill
 https://taskmanager-sudhanshu.netlify.app/
 
 ## 📸 Preview
-<p align="center"> <img src="./preview.jpg" width="100%"> </p>
+
+<p align="center">
+  <img src="./preview-mobile.jpg" alt="Mobile Preview" width="22%">
+  <img src="./preview.jpg" alt="Desktop Preview" width="68%">
+</p>
 
 ## ✨ Features
 
