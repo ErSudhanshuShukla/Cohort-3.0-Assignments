@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h1>Task Manager</h1>
+        <button id="themeBtn">
+          <i class="ri-moon-line"></i>
+        </button>
+      </nav>
+      <form id="taskForm">
+        <input type="text" id="taskInput" placeholder="Enter Task" />
+        <select id="category">
+          <option value="Work">Work</option>
+          <option value="Study">Study</option>
+          <option value="Personal">Personal</option>
+        </select>
+        <button type="submit"><i class="ri-add-large-line"></i></button>
+      </form>
+      <div id="taskContainer"></div>
+      <hr />
+      <h2>Attributes vs Properties</h2>
+      <input id="demoInput" value="Original Value" />
+      <button id="checkBtn">Check Difference (Use Browser Console)</button>
+      <hr />
+      <h2>Event Bubbling / Capturing</h2>
+      <div id="grandparent" class="box">
+        Grandparent
+        <div id="parent" class="box">
+          Parent <br />
+          <button class="box" id="child">Child (Event)</button> (Use Browser
+          Console)
+        </div>
+      </div>
+      <hr />
+      <h2>Browser Rendering Pipeline</h2>
+      <div class="pipeline">HTML → Parsing → Tokenization → DOM Tree</div>
+      <div class="pipeline">CSS → CSSOM Tree</div>
+      <div class="pipeline">DOM + CSSOM → Render Tree</div>
+      <hr />
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
